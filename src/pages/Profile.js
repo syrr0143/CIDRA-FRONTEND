@@ -6,7 +6,7 @@ import { useAuth } from './authcontext.js';
 import '../cSS/profile.css'; // Import your CSS file
 import { ClipLoader } from 'react-spinners';
 // import '../images/cbum.webp'
-import CBUM from "../images/cbum.jpeg";
+import CBUM from "../images/profile.jpg";
 
 function Profile() {
   const { token } = useAuth();
